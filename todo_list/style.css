@@ -1,0 +1,41 @@
+body {
+	background-image: url(images/45degreee_fabric_@2X.png);
+	font: 18px/1.5em "helvetica neue", sans-serif;
+}
+
+section {
+	background-color: #C2CDD1;
+	opacity: 0.5;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	border-radius: 10px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 40px;
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	border-radius: 5px;
+	height: 35px;
+	width: 150px;
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+input[type="date"] {
+	width: 175px;
+}
+
+input:focus {
+	color: blue;
+}
