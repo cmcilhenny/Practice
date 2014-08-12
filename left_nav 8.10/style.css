@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	background-color: lightblue;
+}
+
+section {
+	position: absolute;
+	overflow: auto;
+	
+}
+
+#left-nav {
+	background-color: lightgray;
+	height: 100%;
+	width: 100px;
+  transition: width 0.3s, height 0.3s, transform 0.1s;	
+}
+
+#main-text {
+	left: 100;
+	background-color: lightblue;
+	height: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: width 0.3s;
+}
+
+ul {
+	list-style: none;
+	padding-right: 40px;
+}
+
+li {
+	margin-bottom: 30px;
+}
+
+li:last-child {
+	position: absolute;
+	bottom: 0px;
+	right: 15px;
+}
+
+.hidden {
+	display: none;
+}

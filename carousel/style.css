@@ -1,0 +1,33 @@
+body {
+	background-color: lightgray;
+}
+
+img {
+	/*width: 800px;
+	height: 533px;*/
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*left: 20%;*/
+	
+}
+
+#carousel {
+	width: 800px;
+	height: 533px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#image1,
+#image2,
+#image3,
+#image4,
+#image5,
+#image6 {
+	opacity: 0.0;
+}
